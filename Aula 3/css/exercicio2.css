@@ -1,0 +1,31 @@
+body{
+    background-color: #35D0AD;
+    color: white;
+}
+
+#divs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ListaOrdenada{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    border: 3px solid  #FF2CB2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ItemRosa{
+    color: #FF2CB2;
+    list-style-type: disc;
+    font-size: 20px;
+}
